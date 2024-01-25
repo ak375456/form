@@ -1,3 +1,4 @@
+// this change is made in github
 function validateForm() {
   var firstNameInput = document.getElementById("firstName");
   var firstNameValue = firstNameInput.value.trim();
