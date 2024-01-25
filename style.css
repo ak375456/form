@@ -1,0 +1,13 @@
+th {
+    font-weight: normal;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+form {
+    background-color: rgba(128, 128, 128, 0.221)
+}
