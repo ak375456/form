@@ -1,4 +1,5 @@
 function validateForm() {
+  //this comment is added in vsCODE
   var firstNameInput = document.getElementById("firstName");
   var firstNameValue = firstNameInput.value.trim();
   if (firstNameValue == "" || firstNameValue == null) {
