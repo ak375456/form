@@ -1,3 +1,4 @@
+// this change is made in github
 function validateForm() {
   //this comment is added in vsCODE
   var firstNameInput = document.getElementById("firstName");
