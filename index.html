@@ -1,96 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="logic.js" defer></script>
     <title>Form Validation</title>
-</head>
-<body>
-<h1>from mobile</h1>
+  </head>
+  <body>
+    <h1>from mobile</h1>
     <h1>
-        I have deleted two headers from this file in github Now i want to check on my local machine
+      I have deleted two headers from this file in github Now i want to check on
+      my local machine
     </h1>
     <h1>
-        After making changes in github in this I was able to pull that code with github desktop application now I am writing this code in VSCODE.
+      After making changes in github in this I was able to pull that code with
+      github desktop application now I am writing this code in VSCODE.
     </h1>
-    <Form action="submit" method="post" id="myForm">
-    <table cellpadding="10" border="0">
-        <tr >
-            <th>
-                First name:
-            </th>
-            <th>
-                <input type="text" size="30" id="firstName" placeholder="Please enter your name ">
-            </th>
+    <form action="submit" method="post" id="myForm">
+      <table cellpadding="10" border="0">
+        <tr>
+          <th>First name:</th>
+          <th>
+            <input
+              type="text"
+              size="30"
+              id="firstName"
+              placeholder="Please enter your name "
+            />
+          </th>
         </tr>
         <tr>
-            <th>
-                Last name:
-            </th>
-            <th>
-                <input type="text" size="30" id="lastName" placeholder="Please enter your last name">
-            </th>
+          <th>Last name:</th>
+          <th>
+            <input
+              type="text"
+              size="30"
+              id="lastName"
+              placeholder="Please enter your last name"
+            />
+          </th>
         </tr>
         <tr>
-            <th>
-                Email:
-            </th>
-            <th>
-                <input type="text" size="30" id="email" placeholder="Please enter your email">
-            </th>
+          <th>Email:</th>
+          <th>
+            <input
+              type="text"
+              size="30"
+              id="email"
+              placeholder="Please enter your email"
+            />
+          </th>
         </tr>
         <tr>
-            <th>
-                password:
-            </th>
-            <th>
-                <input type="password" size="30" id="password" placeholder="Please enter your password">
-            </th>
+          <th>password:</th>
+          <th>
+            <input
+              type="password"
+              size="30"
+              id="password"
+              placeholder="Please enter your password"
+            />
+          </th>
         </tr>
         <tr>
-            <th>
-                Phone number:
-            </th>
-            <th>
-                <input type="tel" size="30" id="number" placeholder="Please enter your number" >
-            </th>
+          <th>Phone number:</th>
+          <th>
+            <input
+              type="tel"
+              size="30"
+              id="number"
+              placeholder="Please enter your number"
+            />
+          </th>
         </tr>
         <tr>
-            <th>
-                Gender
-            </th>
-            <th>
-                <input type="checkbox" id="maleCheckBox">
-                Male
-                <input type="checkbox" id="femaleCheckBox">
-                Female
-            </th>
+          <th>Gender</th>
+          <th>
+            <input type="checkbox" id="maleCheckBox" />
+            Male
+            <input type="checkbox" id="femaleCheckBox" />
+            Female
+          </th>
         </tr>
         <tr>
-            <th>Course:</th>
-            <th>
-                <select name="course" id="courseSelect">
-                    <option value="">[Please select your course]</option>
-                    <option value="nursing">BS nursing</option>
-                    <option value="computerScience">BS Computer Science</option>
-                    <option value="zoology">BS Zoology</option>
-                    <option value="engineering">BS Engineering</option>
-                </select>
-            </th>
+          <th>Course:</th>
+          <th>
+            <select name="course" id="courseSelect">
+              <option value="">[Please select your course]</option>
+              <option value="nursing">BS nursing</option>
+              <option value="computerScience">BS Computer Science</option>
+              <option value="zoology">BS Zoology</option>
+              <option value="engineering">BS Engineering</option>
+            </select>
+          </th>
         </tr>
         <tr>
-            <th>
-            </th>
-            <th>
-                <!-- When the submit button is clicked,validateForm() function will be triggered and it will check the validation -->
-                <button type="button" onclick="validateForm()">submit</button>
-                <button type="reset">reset</button>
-            </th>
+          <th></th>
+          <th>
+            <!-- When the submit button is clicked,validateForm() function will be triggered and it will check the validation -->
+            <button type="button" onclick="validateForm()">submit</button>
+            <button type="reset">reset</button>
+          </th>
         </tr>
-    </table>
-</Form>
-
-</body>
+      </table>
+    </form>
+  </body>
 </html>
